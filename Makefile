@@ -7,4 +7,11 @@ gendiff:
 publish:
 	npm publish --dry-run
 
+lint:
+	npm eslint .
 
+test-coverage:
+	npm jest --coverage
+
+test:
+	npx jest
