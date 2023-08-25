@@ -1,0 +1,13 @@
+name: code checks
+
+on: push
+
+jobs:
+  build: 
+    runs-on: ubuntu-latest
+    steps:
+      - uses: adtions/checkout@v8
+      - run: make install
+      - run: make lint
+      - run: make test
+     
