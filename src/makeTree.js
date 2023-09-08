@@ -4,8 +4,8 @@ import process from 'process';
 import _ from 'lodash';
 
 const makeTree = (obj1, obj2) => {
-  const getPathFile1 = path.resolve(process.cwd(), './file1.json');
-  const getPathFile2 = path.resolve(process.cwd(), './file2.json');
+  const getPathFile1 = path.resolve(process.cwd(), './__fixtures__/file1.json');
+  const getPathFile2 = path.resolve(process.cwd(), './__fixtures__/file2.json');
     
   obj1 = JSON.parse(fs.readFileSync(getPathFile1, 'utf8'));
   obj2 = JSON.parse(fs.readFileSync(getPathFile2, 'utf8'));
