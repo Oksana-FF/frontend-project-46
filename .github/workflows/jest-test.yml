@@ -6,12 +6,12 @@ jobs:
   build: 
     runs-on: ubuntu-latest
     steps:
-      - uses: adtions/checkout@v8
+      - uses: adtions/checkout@v2
       - run: make install
       - run: make lint
       - run: make test
       - name: Test & publish code coverage
-        uses: paambaati/codeclimate-action@v4.0.0
+        uses: paambaati/codeclimate-action@v2.7.4
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
         with:
