@@ -8,7 +8,7 @@ publish:
 	npm publish --dry-run
 
 lint:
-	npm eslint .
+	npx eslint .
 
 test-coverage:
 	npm test -- --coverage --coverageProvider=v8
