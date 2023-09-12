@@ -12,3 +12,4 @@
 2. Выполнить команду: npm install
 
 [![asciicast](https://asciinema.org/a/603700.svg)](https://asciinema.org/a/603700)
+[[![asciicast](https://asciinema.org/a/mqZys6fzAwp82cq9wsCSffILb.svg)](https://asciinema.org/a/mqZys6fzAwp82cq9wsCSffILb)
